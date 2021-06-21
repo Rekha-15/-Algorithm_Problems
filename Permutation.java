@@ -37,7 +37,7 @@ public class Permutation {
 	  */
 	 public String swap(String a, int i, int j) {
 		 
-		 char temp;//temp ll be used later for swapping
+		 char temp;//temp Will be used later for swapping
 		 char[] charArray = a.toCharArray();// converting string to charector array by using toCharArray
 		 temp = charArray[i];
 		 charArray[i] = charArray[j];
